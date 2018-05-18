@@ -43,3 +43,4 @@ Thumbs.db
 *.APS
 *.ncb
 *.suo
+/firmware/PIC32MK_ClockConfig.X/nbproject/private/
