@@ -5,7 +5,7 @@
     <SystemStartScript dnOrder="1"/>
   </DisplayManager>
   <General>
-    <HarmonyPath dnOrder="0" path="../../../microchip/harmony/v2_05_01"/>
+    <HarmonyPath dnOrder="0" path="../../../../../../microchip/harmony/v2_05_01"/>
     <Processor dnOrder="1" name="PIC32MK1024MCF100"/>
     <Board dnOrder="2" name=" "/>
     <ForceOptimization dnOrder="3" flag="true"/>
@@ -162,15 +162,15 @@
     </Templates>
     <CompilerItems dnOrder="2">
       <C32 dnOrder="0">
-        <Include dnOrder="0" value="/Users/jharoian/Projects/mchp/PIC32MK_ClockConfig/firmware/src"/>
-        <Include dnOrder="1" value="/Users/jharoian/Projects/mchp/PIC32MK_ClockConfig/firmware/src/system_config/default"/>
-        <Include dnOrder="2" value="/Users/jharoian/Projects/mchp/PIC32MK_ClockConfig/firmware/src/default"/>
-        <Include dnOrder="3" value="/Users/jharoian/microchip/harmony/v2_05_01/framework"/>
-        <Include dnOrder="4" value="/Users/jharoian/Projects/mchp/PIC32MK_ClockConfig/firmware/src/system_config/default/framework"/>
+        <Include dnOrder="0" value="C:\Users\C15197\Documents\GitHub\PIC32MK_ClockConfig\PIC32MK_ClockConfig\firmware\src"/>
+        <Include dnOrder="1" value="C:\Users\C15197\Documents\GitHub\PIC32MK_ClockConfig\PIC32MK_ClockConfig\firmware\src\system_config\default"/>
+        <Include dnOrder="2" value="C:\Users\C15197\Documents\GitHub\PIC32MK_ClockConfig\PIC32MK_ClockConfig\firmware\src\default"/>
+        <Include dnOrder="3" value="C:\microchip\harmony\v2_05_01\framework"/>
+        <Include dnOrder="4" value="C:\Users\C15197\Documents\GitHub\PIC32MK_ClockConfig\PIC32MK_ClockConfig\firmware\src\system_config\default\framework"/>
       </C32>
     </CompilerItems>
     <Libraries dnOrder="3">
-      <Library dnOrder="0" value="../../../../../microchip/harmony/v2_05_01/bin/framework/peripheral/PIC32MK1024MCF100_peripherals.a"/>
+      <Library dnOrder="0" value="../../../../../../../../microchip/harmony/v2_05_01/bin/framework/peripheral/PIC32MK1024MCF100_peripherals.a"/>
     </Libraries>
   </Manifest>
 </Configuration>
